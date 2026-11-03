@@ -1,0 +1,18 @@
+variable,rule,n_affected,action,reason
+MOCATOTS,value == 88,4,set to NaN,special code
+MOCATOTS,value > 30,5,set to NaN,outside valid range
+MOCATOTS,value == 0,1,kept + flagged,extreme value
+MOCATOTS,non-integer value,244,kept + flagged,likely imputed
+EDUC,value in [99],2,set to NaN,special code
+INDEPEND,value in [9],2,set to NaN,special code
+HYPERTEN,value in [9],11,set to NaN,special code
+DIABETES,value in [9],8,set to NaN,special code
+CBSTROKE,value in [9],3,set to NaN,special code
+LH_ENTORHINAL_GVOL,volume <= 0,1,set to NaN,physically impossible
+RH_ENTORHINAL_GVOL,volume <= 0,0,set to NaN,physically impossible
+LH_PARAHIPPOCAMPAL_GVOL,volume <= 0,0,set to NaN,physically impossible
+RH_PARAHIPPOCAMPAL_GVOL,volume <= 0,0,set to NaN,physically impossible
+LH_PRECUNEUS_GVOL,volume <= 0,0,set to NaN,physically impossible
+RH_PRECUNEUS_GVOL,volume <= 0,0,set to NaN,physically impossible
+LH_INSULA_GVOL,volume <= 0,0,set to NaN,physically impossible
+RH_INSULA_GVOL,volume <= 0,0,set to NaN,physically impossible

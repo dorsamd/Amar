@@ -1,0 +1,16 @@
+﻿# دیتاست‌های خام و حجیم
+alzheimer/*.csv
+alz/
+*.zip
+cleaned_phase1_data.csv
+
+# پایتون
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# سیستم
+.DS_Store
+Thumbs.db
